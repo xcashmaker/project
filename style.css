@@ -1,0 +1,177 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px; 
+    color: #000;
+    line-height: 1.4;      /*     Расстояние сверху между строками  */
+    background-color:#fff;
+    background-image: url("");
+    background-size: cover;
+    background-position: 100% auto;
+    margin: 0;
+}
+
+/* p{
+    text-indent: 18px;     /*     Отступ абзац            */
+
+.title {
+ text-align: center;       /*     Выравнивание по центру  */
+letter-spacing: -4px;      /*     Расстояние между буквами*/
+text-decoration: none; 
+text-transform: uppercase;
+}
+
+.justify{
+    text-align: justify;   /*     Выравнивание по краям   */
+    font-weight: bold;     /*     Толщина текста          */
+    font-style: italic;    /*     Курсив                  */
+    text-transform: uppercase;
+}
+
+ul{
+    list-style-type: none; /*     Стиль unordered list    */
+    list-style-position: inside; 
+    color: chocolate;
+}
+
+.table {
+    border: 3px dashed #000;
+    width: 100%;
+    border-collapse: collapse;      /*     объединить ячейки таблицы    */
+    table-layout: fixed;             /*     25% на каждую из 4 ячеек    */
+    
+}
+
+.table th {
+    text-align: left;
+    padding: 5px 10px;
+    color: rebeccapurple;
+}
+
+.table td {
+    border: 3px dashed #000;
+    padding: 5px 10px;
+}
+
+.table tfoot {
+    text-align: right;
+    color: red;
+}
+
+.text-red {
+    display: inline-block;
+    padding: 10px;
+    color: red;
+    font-weight: 700;
+    margin: 10px;
+    width: 100px;
+
+}
+
+.content {
+    margin: 10px auto;
+    width: 300px;
+  
+}
+
+.post {
+    width: 700px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    border: 1px solid grey;
+    padding: 15px 25px;
+ 
+    background: #000 url("bgpic.jpeg") no-repeat center;
+
+}
+
+.post-title {
+    margin: 0 0 25px 0;
+    color: hotpink;
+    text-align:center;
+}
+.post-text p{
+    margin: 0 0 10px 0;
+    color: white;
+}
+
+.gradient {
+    width: 600px;
+    height: 300px;
+    background-image: radial-gradient(circle, red, black);
+    margin: 20px auto 0;
+}    
+    /* forms */
+
+    .form {
+        width: 500px;
+        padding: 20px;
+        margin: auto;
+        background-color: aliceblue;
+    }
+.form-group{
+    margin-bottom: 15px;
+}
+
+.form-input{
+    display: block;
+    padding: 5px;
+    border: 1px solid black;
+    font-size: 15px;
+
+}
+
+.form-textarea{
+    width: 200px;
+    height: 150px;
+    padding: 5px;
+
+    border: 1px solid black;
+}
+
+.square{
+    width: 50px;
+    height: 50px   ;
+background-color: #333;
+position: static;
+top: 0;
+right: -10px;
+z-index: 2 ;
+}
+
+.square.red{
+
+    background-color: red;
+    right: -15px;
+    top: -5px;
+    z-index: 1;
+}
+
+
+
+
+.modal-title{
+    margin: 0;
+}
+
+.modal{
+
+    padding: 15px;
+    width: 500px;
+    height: 200px;
+    background-color: rgba(153, 79, 70, 0.377);
+    position: relative;
+    margin: 20px auto;
+}   
+
+.link {
+    color: rgb(255, 0, 149);
+    text-decoration: none;
+    
+}
+
+.link:hover {
+    color: brown;
+    text-decoration: underline;
+}
